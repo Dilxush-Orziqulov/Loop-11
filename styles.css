@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #de8a89;
+    overflow: hidden;
+}
+
+.title{
+    margin-left: 230px;
+    width: 700px;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.title_link, .active_link{
+    text-transform: uppercase;
+    color: #ecb9b8;
+    font-size: 3.9rem;
+    margin-right: 50px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.title_link:hover{
+    color: #fbcbcb;
+}
+
+.active_link{
+    color: #fff;
+}
+
+.information{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    position: relative;
+}
+
+.arrow{
+    display: flex;
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecb9b8;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.arrow:hover{
+    background-color: #fbcbcb;
+}
+
+.boxes{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.card:nth-child(1){
+    background-color: #3e3c3d;
+}
+.card:nth-child(2){
+    background-color: #353334;
+}
+.card:nth-child(3){
+    background-color: #131313;
+}
+
+.card p{
+    color: #de8a89;
+}
+
+.btn{
+    position: absolute;
+    bottom: -20px;
+    left: 25px;
+    transform: translate(40%, 10%);
+    width: 250px;
+    height: 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #131313;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    transform: translate(40%, -3%);
+}
